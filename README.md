@@ -17,3 +17,35 @@ função construtora
 function car(){
 this.foo = 'bar';
 console.log(new Car());
+
+# APIS
+
+Application Program Interface
+
+apis são como a camada que esconde regras e possibilita a uma comunicação externa
+
+facilita muito a integração
+
+existem várias metedologias (ou arquiteturas)
+como por exemplos: SOA, rest , uso por de SDK 
+
+Http Methods
+
+Get:
+sempre obtém os dados
+Post:
+Cria um novo registro ou Recurso
+Put:
+Atualiza um registro existente 
+Delete:
+Remove um registro existente
+
+Padrões 
+Get:
+/api/dev/user
+Post:
+/api/dev/user
+Put:
+/api/dev/user/{id}
+delete:
+/api/dev/user/{id}
